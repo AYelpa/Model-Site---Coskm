@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+html {
+    font-family: UnifrakturMaguntia, sans-serif;
+    color: black;
+}
+
+.navbar {
+    text-align: center;
+    background: black;
+    height: 100px;
+    margin: 0px;
+    padding: 10px;
+    font-size: x-large;
+    border: 2px solid white;
+}
+
+.sections-tab ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    margin: 0px;
+}
+
+.sections-tab a  {
+    color: white;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+a:hover {
+    animation: rainbow 5s linear infinite;
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    animation: rainbow 8s linear infinite;
+}
+
+
+
+@keyframes rainbow{
+    10% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    21% { color: indigo; }
+    85% { color: violet; }
+    9% { color: red; }
+}
+
+.logo {
+    padding: 9px;
+    margin: 0px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+video {
+    width: 250px;
+    border: 2px solid white;
+}
+
+.products-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.name h1{
+    color: black;
+}
+
+button {
+    color: white;
+    font-weight: 500;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: black;
+    border: 0px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.description ul {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: x-large;
+}
+
+.description {
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    gap: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    list-style: none;
+}
+
+
+img {
+    width: 150px;
+}
