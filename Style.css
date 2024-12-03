@@ -93,6 +93,7 @@ video {
     height: 400px;
     background-color: white;
     margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .name h1{
@@ -117,6 +118,7 @@ button {
     text-align: center;
     margin: 0px;
     padding: 0px;
+    gap: 30px;
     list-style: none;
     font-size: x-large;
 }
@@ -167,6 +169,17 @@ img {
         border: 0px;
     }
 
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.product a{
+    text-decoration: none;
+    color: white;
 }
 
 
